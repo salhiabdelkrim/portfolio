@@ -20,6 +20,18 @@ export default function Projects() {
       description:
         "Ce site personnel conçu pour présenter mon parcours, mes compétences et mes réalisations.",
     },
+    {
+      title: "Fishing Game – Jeu de pêche interactif",
+      tech: "C# • .NET • Programmation orientée objet",
+      description:
+        "Développement d’un jeu de pêche interactif mettant en œuvre la logique de jeu, la gestion des événements et les principes de la programmation orientée objet.",
+    },
+    {
+      title: "JSON Serializer / Deserializer – Librairie Java",
+      tech: "Java • JSON • Programmation orientée objet",
+      description:
+        "Développement d’un sérialiseur et désérialiseur JSON personnalisé permettant de convertir des objets Java en JSON et inversement, avec gestion des structures imbriquées et de l’intégrité des données.",
+    },
   ];
 
   return (
