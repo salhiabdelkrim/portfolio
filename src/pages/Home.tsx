@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
-import profileImg from "../pictures/photoPerso.jpeg";
+import profileImg from "../pictures/photoPerso1.jpeg";
 
 
 export default function Home() {
