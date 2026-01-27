@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-10 dark:bg-gray-900 dark:text-white">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">Mon Portfolio</h1>
+        <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">The Dreamer</h1>
         <ul className="flex space-x-6 text-gray-700 font-medium dark:text-gray-200">
           <li><Link to="/" className="hover:text-blue-600">Accueil</Link></li>
           <li><Link to="/academic-career" className="hover:text-blue-600">Parcours</Link></li>
