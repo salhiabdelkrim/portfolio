@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
-
+import profileImg from "../pictures/photoPerso.jpeg";
 
 
 export default function Home() {
@@ -17,6 +17,15 @@ export default function Home() {
 >
     <section className="flex flex-col items-center justify-center text-center py-20 min-h-screen 
   bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
+      <motion.img
+        src={profileImg}
+        alt="Photo de Abdelkrim Salhi"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8 }}
+        className="w-40 h-40 rounded-full object-cover mb-6 
+                  border-4 border-blue-500 shadow-lg"
+      />
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
